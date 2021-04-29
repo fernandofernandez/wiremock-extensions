@@ -12,3 +12,14 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# Ignore Gradle build output directory
+build
+
+# Misc
+compiler.xml
+gradle.xml
+jarRepositories.xml
+misc.xml
+vcs.xml
+wiremock-extensions.iml
