@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/response-transformer-service"
+  },
+  "response": {
+    "status": 201,
+    "body": "{ \"values\": [ { \"id\": \"12345\", \"value\": \"decrypted_value1\" }, { \"id\": \"67890\", \"value\": \"decrypted_value2\" }, { \"id\": \"13579\", \"value\": \"decrypted_value3\" } ] }",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [ "FFCustomResponseTransformer" ]
+  }
+}

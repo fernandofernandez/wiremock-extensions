@@ -1,4 +1,4 @@
 package dev.fernandofernandez.wiremock;
 
-public class CustomRequestMatcherTest {
+public class CustomRequestMatcherTest extends TestBase {
 }
