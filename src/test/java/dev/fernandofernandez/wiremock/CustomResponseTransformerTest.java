@@ -86,16 +86,4 @@ public class CustomResponseTransformerTest extends TestBase {
         assertEquals("decrypted_value1", result.getValues().get(0).getValue());
     }
 
-    private TestValues createTestValues(String... ids) {
-        TestValues values = new TestValues();
-        List<TestValue> list = new ArrayList<>();
-        values.setValues(list);
-        for (int i = 0; i < ids.length; i++) {
-            TestValue value = new TestValue();
-            value.setId(ids[i]);
-            value.setValue("encrypted_value" + (i+1));
-            list.add(value);
-        }
-        return values;
-    }
 }
